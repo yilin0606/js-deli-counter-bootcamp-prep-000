@@ -21,11 +21,7 @@ function currentLine(katzDeliLine){
  if(katzDeliLine.length>0){
    var b= ""
  for (var i=1;i<katzDeliLine.length+1;i++){
-   
-   
    b= b + " "+i+'. '+katzDeliLine[i-1]+","
-   
-   
 } return "The line is currently:"+ b.substring(0,b.length-1);
  }
  else{
